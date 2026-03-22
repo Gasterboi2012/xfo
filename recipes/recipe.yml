@@ -49,11 +49,5 @@ modules:
   - type: bling
     install:
       - rpmfusion
-
-  - type: os-release
-    properties:
-      ID: xfo
-      NAME: xfo
-      PRETTY_NAME: xfo
       
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
